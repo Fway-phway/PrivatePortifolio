@@ -1,0 +1,274 @@
+/* img{
+    border-radius: 80px;
+    border-style: groove;
+    margin-left:600px ;
+} */
+
+h2{
+    font-family:Lucida Console;
+    margin-left: 680px;
+}
+
+h1:hover {
+     text-shadow: #CA9E93 -3px 0,
+     #A97D6A 3px 0;
+}
+
+h1{
+    margin-left: 650px;
+  
+  font-family: Monaco;
+}
+
+.age {
+    margin-left: 470px;
+}
+
+.gallery{
+width: 40vw;
+height: 50vmin;
+display: flex;
+gap: 5px;
+/* position: relative; */
+}
+
+.gallery img{
+    height: 80%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 1px;
+    transition: all 1s;
+    /* position:absolute; */
+}
+
+.gallery img:hover{
+    flex: 2;
+}
+
+.booktitle h2{
+    font-family: Monaco;
+    margin-left: 500px;
+    color: #AA4942;
+    
+}
+
+.books{
+width: 30vw;
+display: flex;
+gap: 5px;
+margin-left: 500px;
+}
+
+.books img{
+    height: 200px;
+    flex: 2;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 1s;
+    border-style: groove;
+}
+
+.books img:hover{
+flex: 3;
+}
+
+.song{
+    font-family: Monaco;
+    margin-right: 50px;
+    color: #AA4942;
+}
+
+.singer{
+    width: 30vw;
+display: flex;
+gap: 5px;
+margin-left: 500px;
+}
+
+.singer img{
+    height: 200px;
+    flex: 2;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 1s;
+    border-style: groove;
+}
+
+.singer img:hover{
+    flex:3;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+    border-style: groove;
+    margin-left: 600px;
+}
+/* width="300px" height="300px" style="border-radius: 80px; border-style: groove; margin-left: 600px;" */
+
+.hobby{
+    min-width: 100px;
+    min-height: 40px;
+    border-bottom: 50px;
+    border-radius: 50px;
+    background-color: #CA9E93;
+    border-color: #aa4942; 
+    margin-top: 20px;
+}
+
+.web{
+    margin-left: 500px;
+}
+
+.Hobbies{
+    color: #AA4942;
+
+}
+
+.web-design{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border-style: groove;
+    margin-left: 495px;
+
+    flex: 3;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.web-design img:hover{
+    flex: 3;
+}
+
+.self-care{
+    width: 100px;
+    height: 100px;
+    /* border-bottom: 100px; */
+    border-radius: 100px;
+    border-style: groove;
+
+    flex: 3;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.self-care img:hover{
+    flex: 3;
+}
+
+.reading{
+    width: 100px;
+    height: 100px;
+    /* border-bottom: 100px; */
+    border-radius: 100px;
+    border-style: groove;
+
+    flex: 3;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.reading img:hover{
+    flex: 3;
+}
+
+.cooking{
+    width: 100px;
+    height: 100px;
+    /* border-bottom: 100px; */
+    border-radius: 100px;
+    border-style: groove;
+
+    flex: 3;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.cooking img:hover{
+    flex: 3;
+}
+
+.aboutme{
+    font-family: Monaco;
+    font-size: large;
+    color: bisque;
+    margin-top: 50px;
+}
+
+.aboutme1{
+    margin-left: 150px;
+}
+.aboutme2{
+    margin-left: 540px;
+}
+.aboutme3{
+    margin-left: 580px;
+}
+.aboutme4{
+    margin-left: 430px;
+}
+
+.skills{
+    margin-right: 900px;
+    font-size: xx-large;
+    font-weight: 200;
+    margin-top: 70px;
+    font-family: Gara Mond;
+    margin-left: 50px;
+    
+}
+
+.skill1{
+    font-size: x-large;
+    font-weight: 100;
+    margin-top: 20px;
+    font-family: Gara Mond;
+    margin-left: 50px;
+}
+
+
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.language{
+    margin-top: 60px;
+    font-family: Gara Mond;
+}
+
+.language1{
+    margin-top: 30px;
+    font-family: Gara Mond;
+}
+
+.language2{
+    margin-top: 20px;
+}
+
+.skillgp{
+    margin-left: 50px;
+}
+
+/* .languagegp{
+    margin-right: 800px;
+} */
